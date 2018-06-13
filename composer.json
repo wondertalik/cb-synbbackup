@@ -1,0 +1,27 @@
+{
+  "name": "wondertalik/syncbackups",
+  "description": "The sync backup for the clientbase.ru",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "wondertalik",
+      "email": "wondertalik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.45",
+    "league/flysystem-webdav": "<=1.0.2",
+    "league/flysystem": "<=1.0.25",
+    "monolog/monolog": "^1.23",
+    "srmklive/flysystem-dropbox-v2": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wn\\": ""
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4"
+  }
+}
